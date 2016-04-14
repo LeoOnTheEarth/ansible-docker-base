@@ -1,4 +1,4 @@
-FROM ansible/centos7-ansible:stable
+FROM williamyeh/ansible:centos7-onbuild
 
 RUN mkdir /ansible
 
